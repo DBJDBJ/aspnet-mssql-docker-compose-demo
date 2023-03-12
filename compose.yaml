@@ -8,6 +8,8 @@ services:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: example_123
     # mssql server image isn't available for arm64 architecture, so we use azure-sql instead
+    # that requires much differenct way of starting explained here
+    # https://hub.docker.com/_/microsoft-mssql-server
     # https://learn.microsoft.com/en-us/azure/azure-sql-edge/overview
     image: mcr.microsoft.com/azure-sql-edge:1.0.4
     # If you really want to use MS SQL Server, uncomment the following line
