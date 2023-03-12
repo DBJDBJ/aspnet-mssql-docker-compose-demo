@@ -88,7 +88,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 27342dde8b64        aspnet-mssql_web               "dotnet aspnetapp.dll"   4 minutes ago       Up 4 minutes        0.0.0.0:80->80/tcp   aspnet-mssql_web_1
 ```
 
-After the application starts, navigate to `http://localhost:80` in your web browser.
+After the application starts, navigate to `http://localhost:8888` in your web browser.
 
 ![page](media/output.jpg)
 
